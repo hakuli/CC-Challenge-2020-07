@@ -1,5 +1,5 @@
 {
-  "root": "/",
+  "root": "/app",
   "routes": {
     "/css/*": "/css/",
     "/**": "index.html"
