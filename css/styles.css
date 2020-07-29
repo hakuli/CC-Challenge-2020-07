@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url('http://source.unsplash.com/3840x2160/daily?modern');
+    background-image: url('http://source.unsplash.com/3840x2160/daily?scandinavian');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -71,18 +71,11 @@ header h2 {
 
 main {
     max-width: 800px;
-    margin: 110px auto 8vh auto;
-    min-height: 80vmax;
+    top: 220px;
+    margin: 120px auto 8vh auto;
+    padding-top: 25px;
     overflow-y: scroll;
-}
-
-main::before {
-    display: block;
-    content: " ";
-    margin-top: -115px;
-    height: 115px;
-    visibility: hidden;
-    pointer-events: none;
+    max-height: calc(100vh - 150px);
 }
 
 /* Table Styles */
