@@ -76,6 +76,15 @@ main {
     overflow-y: scroll;
 }
 
+main::before {
+    display: block;
+    content: " ";
+    margin-top: -115px;
+    height: 115px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 /* Table Styles */
 
 table {
