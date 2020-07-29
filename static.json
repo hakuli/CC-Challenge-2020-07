@@ -1,0 +1,7 @@
+{
+  "root": "/",
+  "routes": {
+    "/css/*": "/css/",
+    "/**": "index.html"
+    }
+}
