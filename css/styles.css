@@ -1,0 +1,149 @@
+/* Global Styles */
+
+/* Colours: https://colorpalettes.net/color-palette-4161/ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('http://source.unsplash.com/3840x2160/daily?modern');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+a:hover,
+a:visited:hover {
+    color: purple;
+    text-decoration: overline underline;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: overline;
+}
+
+/* Header Styles */
+
+header {
+    position: fixed;
+    width: 100%;
+    min-height: 80px;
+    top: 0px;
+    margin: 0;
+    padding: auto;
+    text-align: center;
+    background-color: #895835;
+    z-index: 1;
+}
+
+header h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 25px;
+    color: #f5f7e8;
+}
+
+.refresh {
+    right: 15px;
+    top: 15px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    z-index: 2;
+    background-color: #f5f7e8;
+}
+
+/* Main Styles */
+
+main {
+    max-width: 800px;
+    margin: 110px auto 8vh auto;
+    max-height: 80vmax;
+    overflow-y: scroll;
+}
+
+/* Table Styles */
+
+table {
+    margin: auto;
+}
+
+tr > * {
+    height: 70px;
+    width: 70px;
+    border: 1px solid steelblue;
+    margin: 0;
+    padding: 5px;
+}
+
+th,
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #c89f6e;
+    color: black;
+    opacity: 0.9;
+}
+
+td {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7e8;
+    opacity: 0.95;
+}
+
+td li {
+    width: fit-content;
+    text-align: justify;
+}
+
+ul {
+    padding: 0px 30px;
+}
+
+.no-show {
+    visibility: hidden;
+}
+
+/* Footer Styles */
+
+footer {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0px;
+    background-color: #c89f6e;
+    color: #f5f7e8;
+    min-height: 40px;
+}
+
+footer * {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+}
+
+footer a {
+    margin: 0;
+    padding: 0;
+}
